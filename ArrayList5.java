@@ -1,19 +1,22 @@
 import java.util.ArrayList;
   public class ArrayList5{
 	  public static void main(String[]args){
-	  ArrayList<Object> arraylist=new ArrayList<>();
-	  Mobile m1=new Mobile("RealMe",10000);
-	  Mobile m2=new Mobile("Samsung",25000);
-	  arraylist.add(1);
-	  arraylist.add(2);
-	  arraylist.add("A");
-	  arraylist.add("B");
-	  //arraylist.add(m1);
-	 // arraylist.add(m2);
-	 ArrayList5 newArrayList=new ArrayList5();
+	  ArrayList<Object> arrayList=new ArrayList<>();
 	 
-		System.out.println(arraylist);
-		int size=arraylist.size();
+	   ArrayList5 newArrayList1=new ArrayList5();
+	   ArrayList5 newArrayList2=new ArrayList5();
+	 
+	   arrayList.add(1);
+	   arrayList.add(2);
+	   arrayList.add("A");
+	   arrayList.add("B");
+	   arrayList.add(newArrayList1);
+	   arrayList.add(newArrayList2);
+	
+	    
+	 
+		System.out.println("Array List is :"+arrayList);
+		int size=arrayList.size();
 		System.out.println("Size of the Array list is :"+size);
 		
 	                

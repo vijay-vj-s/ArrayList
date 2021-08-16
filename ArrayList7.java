@@ -10,17 +10,17 @@ public class ArrayList7{
 		String string3=sc.nextLine();
 		String string4=sc.nextLine();
 		String string5=sc.nextLine();
-		ArrayList <String>arraylist=new ArrayList<>();
+		ArrayList <String>arrayList=new ArrayList<>();
 		
-		arraylist.add(string1);
-		arraylist.add(string2);
-		arraylist.add(string3);
-		arraylist.add(string4);
-		arraylist.add(string5);
+		arrayList.add(string1);
+		arrayList.add(string2);
+		arrayList.add(string3);
+		arrayList.add(string4);
+		arrayList.add(string5);
 		
 		
 	
-	Iterator it=arraylist.iterator();
+	Iterator it=arrayList.iterator();
 	System.out.println("Elements are :");
 	while(it.hasNext()){
 		System.out.println(it.next());

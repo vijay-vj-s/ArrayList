@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-public class ArrayList9{
+public class ArrayList10{
 		public static void main(String[]args){
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the Five Strings");
@@ -17,13 +17,12 @@ public class ArrayList9{
 			arrayList.add(string3);
 			arrayList.add(string4);
 			arrayList.add(string5);
+			
 			System.out.println("Enter the String :");
-			String new1=sc.nextLine();
-			int index1=arrayList.indexOf(new1);
-			int index2=arrayList.lastIndexOf(new1);
-			System.out.println("First Position of the String is :"+index1);
-			System.out.println("Last Position of the String is :"+index2);
-		
+			
+			String newString=sc.nextLine();
+			arrayList.add(2,newString);
+			System.out.println("After Replace :"+arrayList);
 			
 	     
 		
