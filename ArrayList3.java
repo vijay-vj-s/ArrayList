@@ -2,15 +2,15 @@ import java.util.ArrayList;
 public class ArrayList3{
 		public static void main(String[]args){
 
-        ArrayList<Integer>arraylist=new ArrayList<Integer>();
+        ArrayList<Integer>arrayList=new ArrayList<Integer>();
 	
 		try{
-		arraylist.add(Integer.parseInt(args[0]));
-		arraylist.add(Integer.parseInt(args[1]));
-		arraylist.add(Integer.parseInt(args[2]));
-		arraylist.add(Integer.parseInt(args[3]));
-		arraylist.add(Integer.parseInt(args[4]));
-		System.out.println(arraylist);
+		arrayList.add(Integer.parseInt(args[0]));
+		arrayList.add(Integer.parseInt(args[1]));
+		arrayList.add(Integer.parseInt(args[2]));
+		arrayList.add(Integer.parseInt(args[3]));
+		arrayList.add(Integer.parseInt(args[4]));
+		System.out.println("Array list is :"+arrayList);
 		}
 		catch(ArrayIndexOutOfBoundsException e){
 			
@@ -20,7 +20,7 @@ public class ArrayList3{
 			
 			System.out.println(" Enter only Integers :");
 		}
-		int size=arraylist.size();
+		int size=arrayList.size();
 		System.out.println("Size of the Array is :"+size);
 		}
 
