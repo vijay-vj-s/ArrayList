@@ -9,7 +9,7 @@ public class ArrayList4{
 	   
 	     ArrayList4 newArrayList1=new ArrayList4();	 
          ArrayList4 newArrayList2=new ArrayList4();	 
-          arrayList.add(newArrayList1  );
+          arrayList.add(newArrayList1);
 		  arrayList.add(newArrayList2);
 	  
 		
